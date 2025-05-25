@@ -28,7 +28,6 @@ public class SchedulerService {
             }
         };
 
-        exec.scheduleAtFixedRate(runnable, 0, 5, TimeUnit.SECONDS);
-//        exec.scheduleAtFixedRate(runnable, 0, 5, TimeUnit.MINUTES);
+        exec.scheduleAtFixedRate(runnable, 0, 5, TimeUnit.MINUTES);
     }
 }
